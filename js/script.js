@@ -18,14 +18,14 @@ console.log(secondWord);
 
 
 
-if (firstword.length() > secondWord.length()) {
+if (firstword.length > secondWord.length) {
     document.getElementById('word').innerHTML = 'più corta'+ secondWord
 
-}  else if (firstword.length() < secondWord.length()) {
+}  else if (firstword.length < secondWord.length) {
     document.getElementById('word').innerHTML = 'più corta'+ secondWord
 }
 
-    else (firstword.length() === secondWord.length()) {
+    else (firstword.length === secondWord.length) {
         document.getElementById('word').innerHTML = 'parole uguali'
 } 
 
