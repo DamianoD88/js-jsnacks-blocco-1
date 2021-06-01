@@ -18,15 +18,14 @@ console.log(secondWord);
 
 
 
-if (firstword.length > secondWord.length) {
-    document.getElementById('word').innerHTML = 'più corta'+ secondWord
+if (firstWord.length > secondWord.length) {
+    document.getElementById('word').innerHTML = 'più corta'+ secondWord;
 
-}  else if (firstword.length < secondWord.length) {
-    document.getElementById('word').innerHTML = 'più corta'+ secondWord
+}  else if (firstWord.length < secondWord.length) {
+    document.getElementById('word').innerHTML = 'più corta'+ firstWord;
 }
-
-    else (firstword.length === secondWord.length) {
-        document.getElementById('word').innerHTML = 'parole uguali'
+    else  {
+        document.getElementById('word').innerHTML = 'parole uguali';
 } 
 
 
