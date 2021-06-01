@@ -2,23 +2,33 @@
 // L’utente inserisce due parole in successione, con due prompt. Il software stampa prima la parola più corta, poi la parola più lunga.
 
 // il primo prompt dove inserire la prima parola
-
-var firstword = prompt('prima parola');
+// valore firstword uguale richiesta prima parola
+var firstWord = prompt('prima parola');
 
 // stampo firstword
-console.log(firstword);
+console.log(firstWord);
 
 
 // il secondo prompt dove inserire la seconda parola
-
-var secondword  = prompt('seconda parola');
+// valore firstword uguale richiesta seconda parola
+var secondWord  = prompt('seconda parola');
 
 // stampo secondword
-console.log(secondword);
+console.log(secondWord);
 
-if (firstword.length() > secondword.length()) {
-    document.getElementById 
+
+
+if (firstword.length() > secondWord.length()) {
+    document.getElementById('word').innerHTML = 'più corta'+ secondWord
+
+}  else if (firstword.length() < secondWord.length()) {
+    document.getElementById('word').innerHTML = 'più corta'+ secondWord
 }
+
+    else (firstword.length() === secondWord.length()) {
+        document.getElementById('word').innerHTML = 'parole uguali'
+} 
+
 
 
 // Il software deve chiedere per 5 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri   inseriti. Esegui questo programma in due versioni, con il for e con il while.
