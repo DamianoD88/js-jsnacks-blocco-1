@@ -32,15 +32,27 @@ console.log(firstWord);
 
 // Il software deve chiedere per 5 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri   inseriti. Esegui questo programma in due versioni, con il for e con il while.
 
-var somma = 0;
+// var somma = 0;
 
-for (var i = 0; i < 5; i++) {
-    numero = parseInt(prompt('inserire numero'));
-    console.log(numero);
-    somma = somma + numero;
-}
+// for (var i = 0; i < 5; i++) {
+//     numero = parseInt(prompt('inserire numero'));
+//     console.log(numero);
+//     somma = somma + numero;
+// }
 
-console.log(somma)
+// console.log(somma)
+
+
+// var i = 0;
+
+// while(i < 5){
+//     numero= parseInt(prompt('inserire numero'));
+//     somma += numero;
+//     i++;
+// }
+
+// document.getElementById('word').innerHTML = somma;
+// console.log(somma);
 
 // Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
 
