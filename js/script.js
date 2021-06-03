@@ -3,10 +3,10 @@
 
 // il primo prompt dove inserire la prima parola
 // valore firstword uguale richiesta prima parola
-var firstWord = prompt('prima parola');
+// var firstWord = prompt('prima parola');
 
 // stampo firstword
-console.log(firstWord);
+// console.log(firstWord);
 
 
 // il secondo prompt dove inserire la seconda parola
@@ -56,6 +56,16 @@ console.log(firstWord);
 
 // Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
 
+var array = ['']
+
+for (var i = 0; i < 6; i++) {
+    numero= parseInt(prompt('inserire numero'));
+    if (numero * 2 +1) {
+        array.push(numero)
+    }
+}
+
+    
 
 
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
