@@ -62,6 +62,7 @@ for (var i = 0; i < 6; i++) {
     numero= parseInt(prompt('inserire numero'));
     if (numero * 2 +1) {
         array.push(numero)
+        document.getElementById('word').innerHTML = numero;
     }
 }
 
