@@ -88,3 +88,6 @@ var nomeUtente = prompt('come ti chiami?');
 if (nomeUtente == invitati) {
     console.log('Puoi entrare');
 }
+else {
+    console.log('Non puoi entrare');
+}
