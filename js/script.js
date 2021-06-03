@@ -28,7 +28,7 @@
 //         document.getElementById('word').innerHTML = 'parole uguali';
 // } 
 
-
+/************************************************************************************************ */
 
 // Il software deve chiedere per 5 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri   inseriti. Esegui questo programma in due versioni, con il for e con il while.
 
@@ -54,19 +54,37 @@
 // document.getElementById('word').innerHTML = somma;
 // console.log(somma);
 
+/************************************************************************************************ */
+
 // Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
 
-var array = ['']
 
-for (var i = 0; i < 6; i++) {
-    numero= parseInt(prompt('inserire numero'));
-    if (numero * 2 +1) {
-        array.push(numero)
-        document.getElementById('word').innerHTML = numero;
-    }
-}
+
+// var array = ['']
+
+// for (var i = 0; i < 6; i++) {
+//     numero= parseInt(prompt('inserire numero'));
+//     if (numero * 2 +1) {
+//         array.push(numero)
+//         document.getElementById('word').innerHTML = numero;
+//     }
+// }
 
     
 
 
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+// Crea un array con i nominativi degli invitati
+
+var invitati = ['Beppe', 'Gino', 'Geltrude', 'Arturo'];
+
+// chiedi all'utente il suo nome
+
+var nomeUtente = prompt('come ti chiami?');
+
+// comunicagli SE può partecipare  o no alla festa
+
+if (nomeUtente == invitati) {
+    console.log('Puoi entrare');
+}
