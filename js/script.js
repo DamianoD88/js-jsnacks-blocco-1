@@ -83,11 +83,16 @@ var invitati = ['Beppe', 'Gino', 'Geltrude', 'Arturo'];
 
 var nomeUtente = prompt('come ti chiami?');
 
+// Do una risposta all'utente
+
+var messaggioUtente = 'Non puoi entrare'
+
 // comunicagli SE può partecipare  o no alla festa
 
-if (nomeUtente == invitati) {
-    console.log('Puoi entrare');
+for (var i = 0; i < invitati.length; i++){
+    if (nomeUtente == invitati[i]) {
+        messaggioUtente = 'Puoi entrare';
+    }
 }
-else {
-    console.log('Non puoi entrare');
-}
+
+alert(messaggioUtente);
